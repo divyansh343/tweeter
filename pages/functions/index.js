@@ -3,5 +3,9 @@ export const convertSpaces = (text) => {
 };
 
 export const convertLineBreaks = (text) => {
-  return text.replace(/(?:\r\n|\r|\n)/g, "%E2%9A%A1%EF%B8%8F%0D%0A%0A");
+  return text.replace(/(?:\r\n|\r|\n)/g, "%0A");
+};
+
+export const convertHash = (text) => {
+  return text.replace(/[#_]/g, "%23");
 };
