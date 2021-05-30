@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import { convertSpaces, convertLineBreaks, convertHash } from "./functions";
 // icons
 import { FiCopy, FiTwitter } from "react-icons/fi";
+import toast, { Toaster } from "react-hot-toast";
 
 const Home = () => {
   // default intent
@@ -36,8 +37,19 @@ const Home = () => {
     setTwitterIntent(shareLink);
   };
 
+  const copyToClipboard = () => {
+    toast.success("Copied to clipboard!", {
+      style: {
+        background: "#1F0E27",
+        border: "1px solid #EF5FAD",
+        color: "#fff",
+      },
+    });
+  };
+
   return (
     <div className="h-screen w-full flex items-center justify-center">
+      <Toaster position="bottom-right" reverseOrder={true} />
       <div className="w-7/12 p-7 py-10 h-full flex items-center justify-center">
         <div className="bg-[#ECF2F5] h-full p-10 rounded-md w-10/12">
           <h1 className="text-5xl font-bold">Tweeter</h1>
@@ -51,7 +63,7 @@ const Home = () => {
             onChange={(e) => setText(e.target.value)}
           ></textarea>
           <div className="flex w-full">
-            <Button className="button !p-0">
+            <Button className="button !p-0" onClick={copyToClipboard}>
               <div className="px-4 py-2 flex items-center capitalize text-md bg-white border border-[#936BF3] hover:border-[#EF5FAD] rounded-md">
                 Copy Code <FiCopy className="ml-2 text-[#EF5FAD]" />
               </div>
