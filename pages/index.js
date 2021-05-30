@@ -38,6 +38,10 @@ const Home = () => {
   };
 
   const copyToClipboard = () => {
+    // copy to clipboard
+    navigator.clipboard.writeText(twitterIntent);
+
+    // toast
     toast.success("Copied to clipboard!", {
       style: {
         background: "#1F0E27",
