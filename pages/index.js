@@ -12,6 +12,9 @@ import Editor from "../components/Editor";
 
 // head
 import Head from "next/head";
+import GithubCorner from "react-github-corner";
+import { FiGithub } from "react-icons/fi";
+import Badges from "../components/Badges";
 
 const Home = () => {
   // show emoji
@@ -63,7 +66,7 @@ const Home = () => {
       style: {
         background: "#1F0E27",
         border: "1px solid #EF5FAD",
-        color: "#fff",
+        color: "#ECF2F5",
       },
     });
   };
@@ -73,6 +76,13 @@ const Home = () => {
       <Head>
         <title>Tweeter - Sharing to Twitter Made Easy</title>
       </Head>
+      <GithubCorner
+        href="https://github.com/saviomartin/tweeter"
+        bannerColor="#ECF2F5"
+        octoColor="#1B143C"
+        size={80}
+        direction="right"
+      />
       <Toaster position="bottom-right" reverseOrder={true} />
       <div className="w-7/12 p-7 py-10 h-full flex items-center justify-center relative">
         <Editor
@@ -84,8 +94,9 @@ const Home = () => {
           twitterIntent={twitterIntent}
         />
       </div>
-      <div className="w-5/12 p-7 py-10 h-full flex items-center justify-end">
+      <div className="w-5/12 p-7 py-10 h-full flex items-end justify-center flex-col">
         <Tweet text={text} />
+        <Badges />
       </div>
     </div>
   );
