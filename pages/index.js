@@ -6,7 +6,7 @@ import { convertSpaces, convertLineBreaks, convertHash } from "../functions";
 // icons
 import { FiCopy, FiTwitter } from "react-icons/fi";
 import toast, { Toaster } from "react-hot-toast";
-import Tweet from "./components/Tweet";
+import Tweet from "../components/Tweet";
 
 const Home = () => {
   // default intent
