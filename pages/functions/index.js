@@ -21,6 +21,12 @@ export const detectUrls = (text) => {
 
 export const detectHashtags = (text) => {
   return text.replace(/(?:\s|^)#([^\s]+)/g, (hashtag) => {
-    return "<span class='twitterHighlight'>" + hashtag + "</span>";
+    return "<a class='twitterHighlight'>" + hashtag + "</a>";
+  });
+};
+
+export const detectMentions = (text) => {
+  return text.replace(/([@]|[#])([a-z])\w+/gim, (user) => {
+    return "<span class='twitterHighlight'>" + user + "</span>";
   });
 };
