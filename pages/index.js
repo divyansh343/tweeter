@@ -33,6 +33,14 @@ const Home = () => {
     generateIntendUrl();
   }, [text]);
 
+  useEffect(() => {
+    document.onclick = () => {
+      if (showEmoji) {
+        setShowEmoji(false);
+      }
+    };
+  });
+
   const generateIntendUrl = () => {
     let optimisedText = convertLineBreaks(text);
 
@@ -91,7 +99,7 @@ const Home = () => {
             </div>
           </div>
           {showEmoji && (
-            <div className="absolute top-0 right-0">
+            <div className="absolute top-5 right-[-13.25rem]">
               <Picker set="twitter" onSelect={(e) => addEmoji(e)} />
             </div>
           )}
