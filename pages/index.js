@@ -119,6 +119,19 @@ const Home = () => {
                 Try Demo <FiTwitter className="ml-2 text-[#EF5FAD]" />
               </div>
             </Button>
+            <a
+              href="https://buymeacoffee.com/saviomartin"
+              target="_blank"
+              rel="noreferrer"
+              class="ml-1 items-center rounded-md relative cursor-pointer"
+              title="Buy Me A Coffee"
+            >
+              <img
+                src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+                class="h-[42px] pixelated"
+                alt="Buy Me A Coffee"
+              />
+            </a>
           </div>
         </div>
       </div>
