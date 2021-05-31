@@ -49,7 +49,7 @@ const Editor = ({
         </div>
       </div>
       {showEmoji && (
-        <div className="absolute top-5 right-[-13.25rem]">
+        <div className="absolute top-[-3.25rem] right-5 bg-black">
           <Picker set="twitter" onSelect={(e) => addEmoji(e)} />
         </div>
       )}
@@ -73,12 +73,12 @@ const Editor = ({
           href="https://buymeacoffee.com/saviomartin"
           target="_blank"
           rel="noreferrer"
-          class="ml-1 items-center mt-1 lg:mt-0 xl:mt-0 rounded-md relative cursor-pointer"
+          className="ml-1 items-center mt-1 lg:mt-0 xl:mt-0 rounded-md relative cursor-pointer"
           title="Buy Me A Coffee"
         >
           <img
             src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-            class="h-[42px] pixelated"
+            className="h-[42px] pixelated"
             alt="Buy Me A Coffee"
           />
         </a>
