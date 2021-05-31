@@ -21,14 +21,12 @@ export const detectUrls = (text) => {
 
 export const detectHashtags = (text) => {
   return text.replace(/(?:\s|^)#([^\s]+)/g, (hashtag) => {
-    return `<a class="twitterHighlight" href="https://twitter.com/hashtag/${hashtag.slice(
-      2
-    )}">${hashtag}</a>`;
+    return `<a class="twitterHighlight" href="https://twitter.com/hashtag/${hashtag.slice(2)}">${hashtag}</a>`;
   });
 };
 
 export const detectMentions = (text) => {
   return text.replace(/([@])([a-z])\w+/gim, (user) => {
-    return `<a class='twitterHighlight' href='https://twitter.com/${user}'>${user}</a>`;
+    return `<a class='twitterHighlight' href='https://twitter.com/${user.slice(1)}'>${user}</a>`;
   });
 };
