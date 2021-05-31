@@ -11,14 +11,12 @@ import Tweet from "../components/Tweet";
 import Editor from "../components/Editor";
 import Badges from "../components/Badges";
 
-// head
-import Head from "next/head";
-
 // github corner react
 import GithubCorner from "react-github-corner";
 
 // animate.css
 import "animate.css";
+import MetaTags from "../components/MetaTags";
 
 const Home = () => {
   // show emoji
@@ -77,9 +75,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen w-full items-center justify-center block lg:flex md:flex xl:flex">
-      <Head>
-        <title>Tweeter - Sharing to Twitter Made Easy</title>
-      </Head>
+      <MetaTags />
       <GithubCorner
         href="https://github.com/saviomartin/tweeter"
         bannerColor="#ECF2F5"
