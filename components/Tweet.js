@@ -12,17 +12,17 @@ const Tweet = ({ text }) => {
 
   return (
     <div className="w-full max-w-xl border border-gray-300 rounded-2xl py-3 px-5 bg-white">
-      <div className="flex">
+      <a href="https://twitter.com/rrhoover" className="flex">
         <div className="mr-2 cursor-pointer">
           <img
             className="rounded-full"
-            src="https://pbs.twimg.com/profile_images/1364491704817098753/V22-Luf7_normal.jpg"
-            alt="Elon"
+            src="https://pbs.twimg.com/profile_images/1289046130366406656/-s-fxoLn_normal.jpg"
+            alt="Ryan Hoover"
           />
         </div>
         <div>
           <div className="flex space-x-1 cursor-pointer">
-            <span className="font-bold">Elon Musk</span>
+            <span className="font-bold">Ryan Hoover</span>
             <span className="text-blue-500">
               <svg
                 className="w-6 h-6"
@@ -37,7 +37,7 @@ const Tweet = ({ text }) => {
             </span>
           </div>
           <div className="text-gray-500 leading-4 cursor-pointer">
-            @elonmusk
+            @rrhoover
           </div>
         </div>
         <div className="text-blue-500 ml-auto">
@@ -47,7 +47,7 @@ const Tweet = ({ text }) => {
             </g>
           </svg>
         </div>
-      </div>
+      </a>
       <div className="py-3">
         <span className="text-lg pre my-2" id="element"></span>
         <div className="flex">
