@@ -2,7 +2,7 @@ import { Button } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 
 // functions
-import { convertSpaces, convertLineBreaks, convertHash } from "./functions";
+import { convertSpaces, convertLineBreaks, convertHash } from "../functions";
 // icons
 import { FiCopy, FiTwitter } from "react-icons/fi";
 import toast, { Toaster } from "react-hot-toast";

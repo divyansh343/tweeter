@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { detectHashtags, detectMentions, detectUrls } from "../functions";
+import { detectHashtags, detectMentions, detectUrls } from "../../functions";
 
 const Tweet = ({ text }) => {
   // detecting urls in the text
