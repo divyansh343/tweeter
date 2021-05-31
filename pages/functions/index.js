@@ -15,18 +15,18 @@ export const detectUrls = (text) => {
 
   return text.replace(urlRegex, function (url) {
     url = url.replace(/^https?:\/\//, "");
-    return `<a href="https://${url}" class="twitterHighlight">${url}</a>`;
+    return `<a href="https://${url}" target="_blank" class="twitterHighlight">${url}</a>`;
   });
 };
 
 export const detectHashtags = (text) => {
   return text.replace(/(?:\s|^)#([^\s]+)/g, (hashtag) => {
-    return `<a class="twitterHighlight" href="https://twitter.com/hashtag/${hashtag.slice(2)}">${hashtag}</a>`;
+    return `<a class="twitterHighlight" href="https://twitter.com/hashtag/${hashtag.slice(2)}" target="_blank">${hashtag}</a>`;
   });
 };
 
 export const detectMentions = (text) => {
   return text.replace(/([@])([a-z])\w+/gim, (user) => {
-    return `<a class='twitterHighlight' href='https://twitter.com/${user.slice(1)}'>${user}</a>`;
+    return `<a class='twitterHighlight' href='https://twitter.com/${user.slice(1)}' target="_blank">${user}</a>`;
   });
 };
