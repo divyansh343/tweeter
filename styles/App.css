@@ -11,6 +11,7 @@
 body {
   background: url("../assets/background.png");
   background-size: cover;
+  background-position: right center;
 }
 .pre {
   white-space: pre-line;

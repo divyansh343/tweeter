@@ -1,11 +1,17 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 // functions
 import { convertSpaces, convertLineBreaks, convertHash } from "../functions";
-import toast, { Toaster } from "react-hot-toast";
-import Tweet from "../components/Tweet";
 
+// toaster
+import toast, { Toaster } from "react-hot-toast";
+
+// components
+import Tweet from "../components/Tweet";
 import Editor from "../components/Editor";
+
+// head
+import Head from "next/head";
 
 const Home = () => {
   // show emoji
@@ -64,6 +70,9 @@ const Home = () => {
 
   return (
     <div className="h-screen w-full flex items-center justify-center">
+      <Head>
+        <title>Tweeter - Sharing to Twitter Made Easy</title>
+      </Head>
       <Toaster position="bottom-right" reverseOrder={true} />
       <div className="w-7/12 p-7 py-10 h-full flex items-center justify-center relative">
         <Editor
