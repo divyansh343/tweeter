@@ -12,3 +12,9 @@ body {
   background: url("../assets/background.png");
   background-size: cover;
 }
+.pre {
+  white-space: pre-line;
+}
+.twitterHighlight {
+  color: #2298e1;
+}

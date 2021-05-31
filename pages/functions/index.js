@@ -9,3 +9,9 @@ export const convertLineBreaks = (text) => {
 export const convertHash = (text) => {
   return text.replace(/[#_]/g, "%23");
 };
+
+export const detectUrls = (text) => {
+  let urlRegex = /(https?:\/\/[^\s]+)/g;
+
+  return text.replace(urlRegex, '<a class="twitterHighlight" href="$1">$1</a>');
+};

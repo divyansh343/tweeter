@@ -6,6 +6,7 @@ import { convertSpaces, convertLineBreaks, convertHash } from "./functions";
 // icons
 import { FiCopy, FiTwitter } from "react-icons/fi";
 import toast, { Toaster } from "react-hot-toast";
+import Tweet from "./components/Tweet";
 
 const Home = () => {
   // default intent
@@ -86,9 +87,7 @@ const Home = () => {
         </div>
       </div>
       <div className="w-5/12 p-7 py-10 h-full flex items-center justify-center">
-        <div className="bg-[#ECF2F5] h-full w-6/12 p-3 rounded-md">
-          <h1 className="text-sm wrap text-green-400">{twitterIntent}</h1>
-        </div>
+        <Tweet text={text} />
       </div>
     </div>
   );
