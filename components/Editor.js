@@ -28,7 +28,7 @@ const Editor = ({
     setText(message);
   };
   return (
-    <div className="bg-[#ECF2F5] h-full p-10 rounded-md w-10/12 ">
+    <div className="bg-[#ECF2F5] p-10 rounded-md w-full lg:w-10/12 xl:w-10/12 animate__animated animate__fadeInLeft">
       <h1 className="text-5xl font-bold">Tweeter</h1>
       <p className="text-sm m-1 text-[#555]">
         Add your text to share in the text area below, Also see live preview on
@@ -53,7 +53,7 @@ const Editor = ({
           <Picker set="twitter" onSelect={(e) => addEmoji(e)} />
         </div>
       )}
-      <div className="flex w-full">
+      <div className="flex w-full flex-wrap">
         <Button className="button !p-0" onClick={copyToClipboard}>
           <div className="px-4 py-2 flex items-center capitalize text-md bg-white border border-[#936BF3] hover:border-[#EF5FAD] rounded-md">
             Copy Code <FiCopy className="ml-2 text-[#EF5FAD]" />
@@ -65,7 +65,7 @@ const Editor = ({
           target="_blank"
           rel="noreferrer"
         >
-          <div className="px-4 py-2 flex items-center capitalize text-md bg-white border border-[#936BF3] hover:border-[#EF5FAD] rounded-md">
+          <div className="px-4 py-2 flex items-center capitalize text-md bg-white border border-[#936BF3] hover:border-[#EF5FAD] rounded-md ">
             Try Demo <FiTwitter className="ml-2 text-[#EF5FAD]" />
           </div>
         </Button>
@@ -73,7 +73,7 @@ const Editor = ({
           href="https://buymeacoffee.com/saviomartin"
           target="_blank"
           rel="noreferrer"
-          class="ml-1 items-center rounded-md relative cursor-pointer"
+          class="ml-1 items-center mt-1 lg:mt-0 xl:mt-0 rounded-md relative cursor-pointer"
           title="Buy Me A Coffee"
         >
           <img

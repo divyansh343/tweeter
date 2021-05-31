@@ -11,7 +11,7 @@ const Tweet = ({ text }) => {
   });
 
   return (
-    <div className="w-full max-w-xl border border-gray-300 rounded-2xl py-3 px-5 bg-white">
+    <div className="w-full max-w-xl border border-gray-300 rounded-2xl py-3 px-5 bg-white animate__animated animate__fadeInRight">
       <a href="https://twitter.com/rrhoover" className="flex">
         <div className="mr-2 cursor-pointer">
           <img

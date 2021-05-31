@@ -8,10 +8,14 @@
 *:focus {
   outline: none !important;
 }
+#root,
+html {
+  overflow-x: hidden !important;
+}
 body {
   background: url("../assets/background.png");
   background-size: cover;
-  background-position: right center;
+  background-position: center;
 }
 .pre {
   white-space: pre-line;

@@ -9,12 +9,16 @@ import toast, { Toaster } from "react-hot-toast";
 // components
 import Tweet from "../components/Tweet";
 import Editor from "../components/Editor";
+import Badges from "../components/Badges";
 
 // head
 import Head from "next/head";
+
+// github corner react
 import GithubCorner from "react-github-corner";
-import { FiGithub } from "react-icons/fi";
-import Badges from "../components/Badges";
+
+// animate.css
+import "animate.css";
 
 const Home = () => {
   // show emoji
@@ -72,7 +76,7 @@ const Home = () => {
   };
 
   return (
-    <div className="h-screen w-full flex items-center justify-center">
+    <div className="min-h-screen w-full items-center justify-center block lg:flex md:flex xl:flex">
       <Head>
         <title>Tweeter - Sharing to Twitter Made Easy</title>
       </Head>
@@ -84,7 +88,7 @@ const Home = () => {
         direction="right"
       />
       <Toaster position="bottom-right" reverseOrder={true} />
-      <div className="w-7/12 p-7 py-10 h-full flex items-center justify-center relative">
+      <div className="w-full lg:w-7/12 md:w-7/12 xl:w-7/12 p-7 py-10 h-6/12 lg:h-full xl:h-full flex items-center justify-center relative">
         <Editor
           text={text}
           setText={setText}
@@ -94,7 +98,7 @@ const Home = () => {
           twitterIntent={twitterIntent}
         />
       </div>
-      <div className="w-5/12 p-7 py-10 h-full flex items-end justify-center flex-col">
+      <div className="w-full lg:w-5/12 md:w-5/12 xl:w-5/12 p-7 py-10 h-6/12 lg:h-full xl:h-full flex items-center lg:items-end xl:items-end justify-center flex-col">
         <Tweet text={text} />
         <Badges />
       </div>
