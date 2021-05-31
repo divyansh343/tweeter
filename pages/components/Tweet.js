@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import { detectUrls } from "../functions";
+import { detectHashtags, detectUrls } from "../functions";
 
 const Tweet = ({ text }) => {
   // detecting urls in the text
-  const tweet = detectUrls(text);
+  const tweet = detectHashtags(detectUrls(text));
 
   useEffect(() => {
     const element = document.getElementById("element");

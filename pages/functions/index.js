@@ -18,3 +18,9 @@ export const detectUrls = (text) => {
     return '<a href="' + url + '" class="twitterHighlight">' + url + "</a>";
   });
 };
+
+export const detectHashtags = (text) => {
+  return text.replace(/(?:\s|^)#([^\s]+)/g, (hashtag) => {
+    return "<span class='twitterHighlight'>" + hashtag + "</span>";
+  });
+};

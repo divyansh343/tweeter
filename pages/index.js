@@ -86,7 +86,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-5/12 p-7 py-10 h-full flex items-center justify-center">
+      <div className="w-5/12 p-7 py-10 h-full flex items-center justify-end">
         <Tweet text={text} />
       </div>
     </div>
