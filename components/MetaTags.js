@@ -17,7 +17,8 @@ const MetaTags = () => {
         content="gradients, gradient generators, generator, gradienta, github gradients, gradient generator online, online gradient, ui gradients, ui gradient generator"
       />
       <link rel="canonical" href="https://tweeterapp.vercel.app/" />
-      <link rel="apple-touch-icon" href="./assets/Icon192.png" />
+      <link rel="apple-touch-icon" href="/assets/logo192.png" />
+      <link rel="icon" href="/assets/favicon.ico" />
 
       {/* Primary Meta Tags */}
       <meta name="title" content="Tweeter - Sharing To Twitter Made Easy" />
@@ -57,6 +58,20 @@ const MetaTags = () => {
         property="twitter:image"
         content="https://raw.githubusercontent.com/saviomartin/gradientking/main/public/assets/banner.png"
       />
+
+      {/* Buy Me A Coffee */}
+      <script
+        data-name="BMC-Widget"
+        data-cfasync="false"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="saviomartin"
+        data-description="Support me on Buy me a coffee!"
+        data-message="If you're enjoying my app, consider supporting me with a coffee ☕️"
+        data-color="#FFDD00"
+        data-position="Right"
+        data-x_margin="18"
+        data-y_margin="18"
+      ></script>
     </Head>
   );
 };
