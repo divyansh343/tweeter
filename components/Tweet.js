@@ -13,7 +13,7 @@ const Tweet = ({ text }) => {
   return (
     <div className="w-full max-w-xl border border-gray-300 rounded-2xl py-3 px-5 bg-white">
       <div className="flex">
-        <div className="mr-2">
+        <div className="mr-2 cursor-pointer">
           <img
             className="rounded-full"
             src="https://pbs.twimg.com/profile_images/1364491704817098753/V22-Luf7_normal.jpg"
@@ -21,7 +21,7 @@ const Tweet = ({ text }) => {
           />
         </div>
         <div>
-          <div className="flex space-x-1">
+          <div className="flex space-x-1 cursor-pointer">
             <span className="font-bold">Elon Musk</span>
             <span className="text-blue-500">
               <svg
@@ -36,7 +36,9 @@ const Tweet = ({ text }) => {
               </svg>
             </span>
           </div>
-          <div className="text-gray-500 leading-4">@elonmusk</div>
+          <div className="text-gray-500 leading-4 cursor-pointer">
+            @elonmusk
+          </div>
         </div>
         <div className="text-blue-500 ml-auto">
           <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -64,8 +66,8 @@ const Tweet = ({ text }) => {
         </div>
       </div>
 
-      <div className="flex space-x-5 pt-3 text-gray-500 border-t border-gray-300">
-        <div className="flex space-x-2">
+      <div className="flex space-x-5 pt-3 text-gray-500 border-t border-gray-300 cursor-pointer">
+        <div className="flex space-x-2 hover:text-red-400">
           <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
             <g>
               <path d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z"></path>
@@ -73,7 +75,7 @@ const Tweet = ({ text }) => {
           </svg>
           <span>783.9k</span>
         </div>
-        <div className="flex space-x-2">
+        <div className="flex space-x-2 hover:text-[#5998E1] cursor-pointer">
           <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
             <g>
               <path d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828c0 .108.044.286.12.403.142.225.384.347.632.347.138 0 .277-.038.402-.118.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67c0-.414-.335-.75-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176z"></path>
@@ -81,7 +83,7 @@ const Tweet = ({ text }) => {
           </svg>
           <span>139.7k</span>
         </div>
-        <div className="flex space-x-2">
+        <div className="flex space-x-2 hover:text-green-500 cursor-pointer">
           <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
             <g>
               <path d="M11.96 14.945c-.067 0-.136-.01-.203-.027-1.13-.318-2.097-.986-2.795-1.932-.832-1.125-1.176-2.508-.968-3.893s.942-2.605 2.068-3.438l3.53-2.608c2.322-1.716 5.61-1.224 7.33 1.1.83 1.127 1.175 2.51.967 3.895s-.943 2.605-2.07 3.438l-1.48 1.094c-.333.246-.804.175-1.05-.158-.246-.334-.176-.804.158-1.05l1.48-1.095c.803-.592 1.327-1.463 1.476-2.45.148-.988-.098-1.975-.69-2.778-1.225-1.656-3.572-2.01-5.23-.784l-3.53 2.608c-.802.593-1.326 1.464-1.475 2.45-.15.99.097 1.975.69 2.778.498.675 1.187 1.15 1.992 1.377.4.114.633.528.52.928-.092.33-.394.547-.722.547z"></path>
