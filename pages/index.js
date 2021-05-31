@@ -81,6 +81,7 @@ const Home = () => {
         bannerColor="#ECF2F5"
         octoColor="#1B143C"
         size={80}
+        className="fixed top-0 right-0 z-10"
         direction="right"
       />
       <Toaster position="bottom-right" reverseOrder={true} />
