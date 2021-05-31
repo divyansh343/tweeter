@@ -13,5 +13,8 @@ export const convertHash = (text) => {
 export const detectUrls = (text) => {
   let urlRegex = /(https?:\/\/[^\s]+)/g;
 
-  return text.replace(urlRegex, '<a class="twitterHighlight" href="$1">$1</a>');
+  return text.replace(urlRegex, function (url) {
+    url = url.replace(/^https?:\/\//, "");
+    return '<a href="' + url + '" class="twitterHighlight">' + url + "</a>";
+  });
 };
