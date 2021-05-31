@@ -49,7 +49,7 @@ const Editor = ({
         </div>
       </div>
       {showEmoji && (
-        <div className="absolute top-[-3.25rem] right-5 bg-black">
+        <div className="absolute z-10 top-[-3.25rem] right-[10%] lg:right-5 xl:right-5">
           <Picker set="twitter" onSelect={(e) => addEmoji(e)} />
         </div>
       )}
