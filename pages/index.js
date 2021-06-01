@@ -75,7 +75,7 @@ const Home = () => {
   return (
     <div className="min-h-screen w-full items-center justify-center block lg:flex md:flex xl:flex">
       <MetaTags />
-      <ModalPopup open={open} setOpen={setOpen} />
+      <ModalPopup open={open} setOpen={setOpen} twitterIntent={twitterIntent} />
       <GithubCorner
         href="https://github.com/saviomartin/tweeter"
         bannerColor="#ECF2F5"
