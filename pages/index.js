@@ -17,8 +17,12 @@ import GithubCorner from "react-github-corner";
 // animate.css
 import "animate.css";
 import MetaTags from "../components/MetaTags";
+import ModalPopup from "../components/Modal";
 
 const Home = () => {
+  // modal
+  const [open, setOpen] = useState(false);
+
   // show emoji
   const [showEmoji, setShowEmoji] = useState(false);
 
@@ -63,11 +67,15 @@ const Home = () => {
         color: "#ECF2F5",
       },
     });
+
+    // toggling modal
+    setOpen(true);
   };
 
   return (
     <div className="min-h-screen w-full items-center justify-center block lg:flex md:flex xl:flex">
       <MetaTags />
+      <ModalPopup open={open} setOpen={setOpen} />
       <GithubCorner
         href="https://github.com/saviomartin/tweeter"
         bannerColor="#ECF2F5"
