@@ -5,6 +5,7 @@ import axios from "axios";
 
 // icons
 import { FiGithub } from "react-icons/fi";
+import { Button } from "@material-ui/core";
 
 const Badges = () => {
   const [starCount, setStarCount] = useState(1);
@@ -41,15 +42,16 @@ const Badges = () => {
           width="200"
         />
       </a>
-      <a
+      <Button
+        className="button !p-0 !ml-1"
         href="https://github.com/saviomartin/tweeter"
-        className="px-3 h-[42px] bg-[#FFFFFF] rounded-md font-semibold text-[#1B143C] flex items-center justify-center"
         target="_blank"
         rel="noreferrer"
       >
-        {starCount} Stars
-        <FiGithub className="ml-1" />
-      </a>
+        <div className="px-4 py-2 flex items-center capitalize text-md bg-white border border-[#936BF3] hover:border-[#EF5FAD] rounded-md ">
+          {starCount} Stars <FiGithub className="ml-2 text-[#EF5FAD]" />
+        </div>
+      </Button>
     </div>
   );
 };
