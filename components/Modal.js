@@ -3,6 +3,7 @@ import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
 import { Button } from "@material-ui/core";
+import { FiThumbsUp } from "react-icons/fi";
 
 const ModalPopup = ({ open, setOpen, twitterIntent }) => {
   const code = `<a href="https://twitter.com/intent/tweet?text=${twitterIntent}">\nShare On Twitter\n</a>`;
@@ -29,7 +30,7 @@ const ModalPopup = ({ open, setOpen, twitterIntent }) => {
           </div>
           <Button className="button !p-0 !mt-2" onClick={() => setOpen(false)}>
             <div className="px-4 py-2 flex items-center capitalize text-md border border-[#936BF3] hover:border-[#EF5FAD] rounded-md">
-              Got it, thanks!
+              Got it, thanks! <FiThumbsUp className="ml-2 text-[#EF5FAD]" />
             </div>
           </Button>
         </div>
