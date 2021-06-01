@@ -40,7 +40,7 @@ const MetaTags = () => {
       />
       <meta
         property="og:image"
-        content="https://raw.githubusercontent.com/saviomartin/gradientking/main/public/assets/banner.png"
+        content="https://tweeterapp.vercel.app/assets/banner.png"
       />
 
       {/* Twitter */}
@@ -56,7 +56,7 @@ const MetaTags = () => {
       />
       <meta
         property="twitter:image"
-        content="https://raw.githubusercontent.com/saviomartin/gradientking/main/public/assets/banner.png"
+        content="https://tweeterapp.vercel.app/assets/banner.png"
       />
 
       {/* Buy Me A Coffee */}
