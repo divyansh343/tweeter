@@ -120,7 +120,7 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 If you're enjoying my app, consider supporting me with a coffee ☕️
 
 <a href="https://buymeacoffee.com/saviomartin" title="Buy Me A Coffee" >
-<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="42" />
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" />
 </a>
 
 <hr>
