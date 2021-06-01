@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+
+// detecting contents
 import { detectHashtags, detectMentions, detectUrls } from "../functions";
 
 const Tweet = ({ text }) => {
@@ -7,7 +9,7 @@ const Tweet = ({ text }) => {
 
   useEffect(() => {
     const element = document.getElementById("element");
-    element.innerHTML = tweet;
+    element.innerHTML = tweet; // only innerHTML works here
   });
 
   return (
