@@ -14,7 +14,7 @@ const MetaTags = () => {
       <meta name="description" content="Never ever run out of gradients! " />
       <meta
         name="keywords"
-        content="gradients, gradient generators, generator, gradienta, github gradients, gradient generator online, online gradient, ui gradients, ui gradient generator"
+        content="tweeter, tweets, twitter, twitter app, sharing to twitter, tweeterapp, tweeeterapp by savio, savio, savio martin, tweeter sharing, tweet, share to twitter, twitter intents, intent, twitter app, twitter intents generator, twitter intent generator, open source, tweet api, twitter api, react, next, tweeter github, tweeter saviomartin, tweeter sharing to twitter made easy"
       />
       <link rel="canonical" href="https://tweeterapp.vercel.app/" />
       <link rel="apple-touch-icon" href="/assets/logo192.png" />
