@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 
 // icons
-import { FiCopy, FiSmile, FiTwitter } from "react-icons/fi";
+import { FiCopy, FiSmile, FiTwitter, FiX } from "react-icons/fi";
 
 // emoji picker
 import "emoji-mart/css/emoji-mart.css";
@@ -27,6 +27,7 @@ const Editor = ({
     const message = text.slice(0, cursor) + e.native + text.slice(cursor);
     setText(message);
   };
+
   return (
     <div className="bg-[#ECF2F5] p-10 rounded-md w-full lg:w-10/12 xl:w-10/12 animate__animated animate__fadeInLeft">
       <h1 className="text-5xl font-bold">Tweeter</h1>
@@ -45,7 +46,11 @@ const Editor = ({
           className="bg-white absolute bottom-4 right-4 border border-[#ddd] p-2 cursor-pointer rounded-md"
           onClick={() => setShowEmoji(!showEmoji)}
         >
-          <FiSmile className="text-xl" />
+          {showEmoji ? (
+            <FiX className="text-xl" />
+          ) : (
+            <FiSmile className="text-xl" />
+          )}
         </div>
       </div>
       {showEmoji && (

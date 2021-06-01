@@ -37,14 +37,6 @@ const Home = () => {
     generateIntendUrl();
   }, [text]);
 
-  useEffect(() => {
-    document.onclick = () => {
-      if (showEmoji) {
-        setShowEmoji(false);
-      }
-    };
-  });
-
   const generateIntendUrl = () => {
     let optimisedText = convertLineBreaks(text);
 
