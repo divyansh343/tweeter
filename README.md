@@ -1,44 +1,43 @@
 <p align="center">
-  <a href="https://gradient-king.now.sh/">
-    <img alt="Lofi Club" src="public/assets/logo.gif" width="150" height="150" />
+  <a href="https://tweeterapp.now.sh/">
+    <img alt="Tweeter" src="public/assets/logo.png" width="150" height="150" />
   </a>
 </p>
-<h2 align="center">Gradient King</h1>
-<h4 align="center">Never again run out of Gradients✨️</h4>
+<h3 align="center">Tweeter</h1>
+<h4 align="center">Sharing to Twitter made easy 👀</h4>
 
 <p align="center">
-<a href="https://github.com/saviomartin/gradientking/blob/master/LICENSE" target="blank">
-<img src="https://img.shields.io/github/license/saviomartin/gradientking?style=flat-square" alt="gradientking licence" />
+<a href="https://github.com/saviomartin/tweeter/blob/master/LICENSE" target="blank">
+<img src="https://img.shields.io/github/license/saviomartin/tweeter?style=flat-square" alt="tweeter licence" />
 </a>
-<a href="https://github.com/saviomartin/gradientking/fork" target="blank">
-<img src="https://img.shields.io/github/forks/saviomartin/gradientking?style=flat-square" alt="gradientking forks"/>
+<a href="https://github.com/saviomartin/tweeter/fork" target="blank">
+<img src="https://img.shields.io/github/forks/saviomartin/tweeter?style=flat-square" alt="tweeter forks"/>
 </a>
-<a href="https://github.com/saviomartin/gradientking/stargazers" target="blank">
-<img src="https://img.shields.io/github/stars/saviomartin/gradientking?style=flat-square" alt="gradientking stars"/>
+<a href="https://github.com/saviomartin/tweeter/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/saviomartin/tweeter?style=flat-square" alt="tweeter stars"/>
 </a>
-<a href="https://github.com/saviomartin/gradientking/issues" target="blank">
-<img src="https://img.shields.io/github/issues/saviomartin/gradientking?style=flat-square" alt="gradientking issues"/>
+<a href="https://github.com/saviomartin/tweeter/issues" target="blank">
+<img src="https://img.shields.io/github/issues/saviomartin/tweeter?style=flat-square" alt="tweeter issues"/>
 </a>
-<a href="https://github.com/saviomartin/gradientking/pulls" target="blank">
-<img src="https://img.shields.io/github/issues-pr/saviomartin/gradientking?style=flat-square" alt="gradientking pull-requests"/>
+<a href="https://github.com/saviomartin/tweeter/pulls" target="blank">
+<img src="https://img.shields.io/github/issues-pr/saviomartin/tweeter?style=flat-square" alt="tweeter pull-requests"/>
 </a>
-<a href="https://twitter.com/intent/tweet?text=Check%20out%20gradientking.now.sh%20by%20@SavioMartin7%E2%9A%A1%EF%B8%8F%0D%0A%0ANever%20Again%20run%20out%20of%20Gradients!%20%F0%9F%8E%A8%20Give%20it%20a%20try!%20You%27ll%20love%20it!%20%F0%9F%94%A5%0D%0A%0A%23DEVCommunity%20%23100DaysOfCode%20%23javascript"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fsaviomartin%2Fgradientking"></a>
 
 </p>
 
-<p align="center"><img src="public/assets/app.gif" alt="gradientking gif" /></p>
+<p align="center"><img src="public/assets/app.gif" alt="tweeter gif" /></p>
 
 <p align="center">
     <a href="https://gradient-king.now.sh/" target="blank">View Demo</a>
     ·
-    <a href="https://github.com/saviomartin/gradientking/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/saviomartin/tweeter/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/saviomartin/gradientking/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/saviomartin/tweeter/issues/new/choose">Request Feature</a>
 </p>
 
 ### Fed up with searching gradients for your app?
 
-Gradient king can help you. We provide a huge collection of gradients and you could easily choose one. Besides that, we also provides a gradient generator where you could upload your image and grad the gradients from it. How cool is that 🙌
+Tweeter can help you. We provide a huge collection of gradients and you could easily choose one. Besides that, we also provides a gradient generator where you could upload your image and grad the gradients from it. How cool is that 🙌
 
 [Read blog to understand better 📖](https://savio.xyz/introducing-gradient-king-never-again-run-out-of-gradients)
 
@@ -48,7 +47,7 @@ Gradient king can help you. We provide a huge collection of gradients and you co
 <img src="public/assets/banner.png" />
 </a>
 
-Try the tool: [Gradient King](https://gradient-king.now.sh/)
+Try the tool: [Tweeter](https://gradient-king.now.sh/)
 
 ## 🧐 Features
 
@@ -72,20 +71,20 @@ Provides you a huge collection of awesome, elegant gradients. You can use it abs
 - **Minimal UI, Lightning Fast**
 - **Fully Responsive**
 
-Gradient King is super productive enough to grab the best gradients for your next app. ✨️
+Tweeter is super productive enough to grab the best gradients for your next app. ✨️
 
 ## 🛠️ Installation Steps
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/saviomartin/gradientking.git
+git clone https://github.com/saviomartin/tweeter.git
 ```
 
 2. Change the working directory
 
 ```bash
-cd gradientking
+cd tweeter
 ```
 
 3. Install dependencies
@@ -116,7 +115,7 @@ Head over to [`data.json`](data.json) and add your gradient at the bottom of the
 
 After your PR got merged, you'll be automatically appared on [contributors page](https://gradient-king.vercel.app/contributors). Works through Github API.
 
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/saviomartin/gradientking/compare).
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/saviomartin/tweeter/compare).
 
 Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
@@ -151,10 +150,10 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 
 ## 👨‍💻 Thanks to the Awesome Contributors
 
-Gradient King will not occur without you. Thanking all the amazing contributors. Feel free to contribute in the project 🙌
+Tweeter will not occur without you. Thanking all the amazing contributors. Feel free to contribute in the project 🙌
 
-<a href="https://github.com/saviomartin/gradientking/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=saviomartin/gradientking" />
+<a href="https://github.com/saviomartin/tweeter/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=saviomartin/tweeter" />
 </a>
 
 Also, check them on [gradient-king.now.sh/contributors](https://gradient-king.vercel.app/contributors)
