@@ -2,6 +2,7 @@ import React from "react";
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
+import { Button } from "@material-ui/core";
 
 const ModalPopup = ({ open, setOpen }) => {
   const code =
@@ -27,6 +28,11 @@ const ModalPopup = ({ open, setOpen }) => {
           <div className="bg-[#1F0E27] text-white p-3 rounded-md break-words Fira font-medium">
             {code}
           </div>
+          <Button className="button !p-0 !mt-2" onClick={() => setOpen(false)}>
+            <div className="px-4 py-2 flex items-center capitalize text-md border border-[#936BF3] hover:border-[#EF5FAD] rounded-md">
+              Got it, thanks!
+            </div>
+          </Button>
         </div>
       </Fade>
     </Modal>
