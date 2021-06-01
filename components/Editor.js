@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 
 // icons
-import { FiCopy, FiSmile, FiTwitter, FiX } from "react-icons/fi";
+import { FiCopy,FiX, FiSmile, FiTwitter } from "react-icons/fi";
 
 // emoji picker
 import "emoji-mart/css/emoji-mart.css";
@@ -46,11 +46,7 @@ const Editor = ({
           className="bg-white absolute bottom-4 right-4 border border-[#ddd] p-2 cursor-pointer rounded-md"
           onClick={() => setShowEmoji(!showEmoji)}
         >
-          {showEmoji ? (
-            <FiX className="text-xl" />
-          ) : (
-            <FiSmile className="text-xl" />
-          )}
+          {showEmoji ?<FiX className="text-xl" /> : <FiSmile className="text-xl" />}
         </div>
       </div>
       {showEmoji && (
