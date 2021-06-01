@@ -1,8 +1,14 @@
 import React from "react";
+
+// material-ui modal
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
+
+// material-ui
 import { Button } from "@material-ui/core";
+
+// icons
 import { FiThumbsUp } from "react-icons/fi";
 
 const ModalPopup = ({ open, setOpen, twitterIntent }) => {
