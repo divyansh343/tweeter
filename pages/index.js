@@ -84,7 +84,7 @@ const Home = () => {
         className="fixed top-0 right-0 z-10"
         direction="right"
       />
-      <Toaster position="bottom-right" reverseOrder={true} />
+      <Toaster position="bottom-center" reverseOrder={true} />
       <div className="w-full lg:w-7/12 md:w-7/12 xl:w-7/12 p-7 py-10 h-6/12 lg:h-full xl:h-full flex items-center justify-center relative">
         <Editor
           text={text}
