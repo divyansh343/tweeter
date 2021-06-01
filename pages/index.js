@@ -10,14 +10,14 @@ import toast, { Toaster } from "react-hot-toast";
 import Tweet from "../components/Tweet";
 import Editor from "../components/Editor";
 import Badges from "../components/Badges";
+import MetaTags from "../components/MetaTags";
+import ModalPopup from "../components/Modal";
 
 // github corner react
 import GithubCorner from "react-github-corner";
 
 // animate.css
 import "animate.css";
-import MetaTags from "../components/MetaTags";
-import ModalPopup from "../components/Modal";
 
 const Home = () => {
   // modal
