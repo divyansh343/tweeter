@@ -35,9 +35,9 @@
     <a href="https://github.com/saviomartin/tweeter/issues/new/choose">Request Feature</a>
 </p>
 
-### Fed up with searching gradients for your app?
+### What's Tweeter?
 
-Tweeter can help you. We provide a huge collection of gradients and you could easily choose one. Besides that, we also provides a gradient generator where you could upload your image and grad the gradients from it. How cool is that 🙌
+Tweeter is a simple app that create high quality dynamic twitter intents for you to share on your site. Comes with live preview, hashtags, twitter emoji support, username and much more.
 
 [Read blog to understand better 📖](https://savio.xyz/introducing-gradient-king-never-again-run-out-of-gradients)
 
@@ -60,6 +60,8 @@ Provides you a huge collection of awesome, elegant gradients. You can use it abs
 - **Live Preview on Left**
 - **Twitter Emoji Support**
 - **High Quality Code Generator**
+- **hashtags username highlighter**
+- **Twitter like feel**
 - **Fully Responsive**
 
 [Tweeter](https://tweeterapp.now.sh/) is worth bookmarking✨️
