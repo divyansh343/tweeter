@@ -1,3 +1,6 @@
+// all of the functions I used in tweeter.now.sh is made using regex patters.
+
+// convertion
 export const convertSpaces = (text) => {
   return text.replace(/\s/g, "%20");
 };
@@ -10,6 +13,7 @@ export const convertHash = (text) => {
   return text.replace(/[#_]/g, "%23");
 };
 
+// detection
 export const detectUrls = (text) => {
   let urlRegex = /(https?:\/\/[^\s]+)/g;
 
