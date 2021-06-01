@@ -1,7 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+// axios
+import axios from "axios";
+
+// icons
 import { FiGithub } from "react-icons/fi";
 
 const Badges = () => {
+  const [starCount, setStarCount] = useState(1);
+
+  const fetchStarCount = () => {
+    axios
+      .get("https://api.github.com/repos/saviomartin/loficlub", {
+        headers: {},
+      })
+      .then((response) => {
+        setStarCount(response.data.stargazers_count);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  // fetch on load once
+  useEffect(() => {
+    fetchStarCount();
+  }, []);
+
   return (
     <div className="flex mt-2 animate__animated animate__fadeInRight">
       <a
@@ -22,7 +47,7 @@ const Badges = () => {
         target="_blank"
         rel="noreferrer"
       >
-        486 Stars
+        {starCount} Stars
         <FiGithub className="ml-1" />
       </a>
     </div>
