@@ -32,18 +32,18 @@ const Badges = () => {
 
   return (
     <div className="flex mt-2 animate__animated animate__fadeInRight">
-      {/* <a
-        href="https://www.producthunt.com/posts/gradient-king?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gradient-king"
+     <a
+        href="https://www.producthunt.com/posts/tweeter"
         target="_blank"
         rel="noreferrer"
         className="mr-1"
       >
         <img
-          src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=297842&theme=light"
+          src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=298225&theme=light"
           alt="Gradient King - Curated collection of 125+ fresh gradients | Product Hunt"
           width="200"
         />
-      </a> */}
+      </a>
       <Button
         className="button !p-0 !ml-1"
         href="https://github.com/saviomartin/tweeter"
