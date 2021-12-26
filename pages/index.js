@@ -33,7 +33,7 @@ const Home = () => {
 
   // default text
   const [text, setText] = useState(
-    "Hello there 👋\n\nCheck out https://tweeter.now.sh by @SavioMartin7, sharing to twitter made easy 👀\n\n#producthunt #DEVCommunity"
+    "RabbitCoin is Future😳"
   );
 
   // fetch on every text change
@@ -62,7 +62,7 @@ const Home = () => {
     // toast
     toast.success("Copied to clipboard!", {
       style: {
-        background: "#1F0E27",
+        background: "#203040",
         border: "1px solid #EF5FAD",
         color: "#ECF2F5",
       },
@@ -76,14 +76,14 @@ const Home = () => {
     <div className="min-h-screen w-full items-center justify-center block lg:flex md:flex xl:flex">
       <MetaTags />
       <ModalPopup open={open} setOpen={setOpen} twitterIntent={twitterIntent} />
-      <GithubCorner
+      {/* <GithubCorner
         href="https://github.com/saviomartin/tweeter"
         bannerColor="#ECF2F5"
         octoColor="#1B143C"
         size={80}
         className="fixed top-0 right-0 z-10"
         direction="right"
-      />
+      /> */}
       <Toaster position="bottom-center" reverseOrder={true} />
       <div className="w-full lg:w-7/12 md:w-7/12 xl:w-7/12 p-7 py-10 h-6/12 lg:h-full xl:h-full flex items-center justify-center relative">
         <Editor

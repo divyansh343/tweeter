@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Epilogue", sans-serif;
+  font-family: "verdana", sans-serif;
 }
 *:focus {
   outline: none !important;
@@ -17,7 +17,7 @@ html {
   overflow-x: hidden !important;
 }
 body {
-  background: url("../public/assets/background.png");
+  background: url("../public/assets/background.jpg");
   background-size: cover;
   background-position: center;
 }

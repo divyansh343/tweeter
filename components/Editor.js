@@ -30,10 +30,9 @@ const Editor = ({
 
   return (
     <div className="bg-[#ECF2F5] p-10 rounded-md w-full lg:w-10/12 xl:w-10/12 animate__animated animate__fadeInLeft">
-      <h1 className="text-5xl font-bold">Tweeter</h1>
+      <h1 className="text-5xl font-bold">Sweeter</h1>
       <p className="text-sm m-1 text-[#555]">
-        Add your text to share in the text area below, Also see live preview on
-        the left, When you're ready Copy your intent code 👀
+        Write your tweet
       </p>
       <div className="relative h-72 w-auto mt-3 mb-2">
         <textarea
@@ -79,19 +78,7 @@ const Editor = ({
             Try Demo <FiTwitter className="ml-2 text-[#EF5FAD]" />
           </div>
         </Button>
-        <a
-          href="https://buymeacoffee.com/saviomartin"
-          target="_blank"
-          rel="noreferrer"
-          className="ml-1 items-center mt-1 lg:mt-0 xl:mt-0 rounded-md relative cursor-pointer"
-          title="Buy Me A Coffee"
-        >
-          <img
-            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-            className="h-[42px] pixelated"
-            alt="Buy Me A Coffee"
-          />
-        </a>
+       
       </div>
     </div>
   );

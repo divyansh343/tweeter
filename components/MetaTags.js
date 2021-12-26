@@ -10,11 +10,11 @@ const MetaTags = () => {
       />
       <meta name="theme-color" content="#1591b2" />
 
-      <title>Tweeter - Sharing To Twitter Made Easy</title>
+      <title>Sweeter - Twitter Made Easy</title>
       <meta name="description" content="Never ever run out of gradients! " />
       <meta
         name="keywords"
-        content="tweeter, tweets, twitter, twitter app, sharing to twitter, tweeterapp, tweeeterapp by savio, savio, savio martin, tweeter sharing, tweet, share to twitter, twitter intents, intent, twitter app, twitter intents generator, twitter intent generator, open source, tweet api, twitter api, react, next, tweeter github, tweeter saviomartin, tweeter sharing to twitter made easy"
+        content="tweeter, tweets, twitter, twitter app, sharing to twitter, tweeterapp, tweeeterapp, tweeter sharing, tweet, share to twitter, twitter intents, intent, twitter app, twitter intents generator, twitter intent generator, open source, tweet api, twitter api, react, next, tweeter github, tweeter, tweeter sharing to twitter made easy"
       />
       <link rel="canonical" href="https://tweeterapp.vercel.app/" />
       <link rel="apple-touch-icon" href="/assets/logo192.png" />
@@ -48,30 +48,18 @@ const MetaTags = () => {
       <meta property="twitter:url" content="https://tweeterapp.now.sh/" />
       <meta
         property="twitter:title"
-        content="Tweeter - Sharing To Twitter Made Easy"
+        content="STweeter - Twitter Made Easy"
       />
       <meta
         property="twitter:description"
-        content="Tweeter is a simple app that create high quality dynamic twitter intents for you to share on your site. Comes with live preview, hashtags, twitter emoji support, username and much more."
+        content="Sweeter is a simple app that create high quality dynamic twitter intents for you to share on your site. Comes with live preview, hashtags, twitter emoji support, username and much more."
       />
       <meta
         property="twitter:image"
         content="https://tweeterapp.vercel.app/assets/banner.png"
       />
 
-      {/* Buy Me A Coffee */}
-      <script
-        data-name="BMC-Widget"
-        data-cfasync="false"
-        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-        data-id="saviomartin"
-        data-description="Support me on Buy me a coffee!"
-        data-message="If you're enjoying my app, consider supporting me with a coffee ☕️"
-        data-color="#FFDD00"
-        data-position="Right"
-        data-x_margin="18"
-        data-y_margin="18"
-      ></script>
+      {/*  */}
     </Head>
   );
 };
